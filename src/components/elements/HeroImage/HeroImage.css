@@ -1,0 +1,29 @@
+.rmdb-heroimage {
+  height: 500px;
+  background-size: 100%, cover !important;
+  background-position: center center !important;
+  display: flex;
+  align-items: flex-end;
+  animation: animate-heoro-image 3s;
+}
+@keyframes animate-hero-image {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.rmdb-heroimage-content {
+  display: flex;
+  margin: 20px 150px;
+}
+.rmdb-heroimage-text {
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  flex: 0 1 500px;
+  text-align: left;
+}
+.rmdb-heroimage-text h1 {
+  margin: 0;
+}

@@ -1,0 +1,15 @@
+.rmdb-moviethumb img {
+  width: 100%;
+  height: 400px;
+  transition: all 0.3s;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  opacity: 0.8;
+}
